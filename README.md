@@ -1,4 +1,7 @@
 # Comparative implementations of convolutional neural nets against the MNIST dataset
+
+This repository accompanies [this](https://medium.com/towards-data-science/tensorflow-vs-pytorch-by-example-66d37901c663) published in _Towards Data Science_.
+
 An exercise in implementing the same CNN architecture in both PyTorch and Tensorflow. I have tried to keep the architecture, optimizer, learning rate, and scheduler the same across both implementation, but minor differences are inevitable. Both achieve similar accuracy of around 99% against the test set.
 
 Each Notebook can be quickly launched in Google Colab using the links below. For GPU acceleration, remember to change your Notebook runtime to GPU.
